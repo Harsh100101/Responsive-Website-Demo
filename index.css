@@ -1,0 +1,94 @@
+.jane {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px 0px 0px;
+}
+.blog {
+    background-image: url(Assets/main.jpg);
+
+    height: 1060px;
+    width: 1600px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.SUBSCRIBE {
+    width: 130px;
+    height: 55px;
+    opacity: 0.7;
+    border-radius: 0;
+}
+.SUBSCRIBE:hover {
+    opacity: 1;
+}
+.sub1-back {
+    background-color: rgb(201, 201, 201);
+}
+.sub1 {
+    border-radius: 0;
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub1-image {
+    width: 90%;
+    transition: transform 0.5s ease;
+}
+.sub1-image:hover {
+    transform: scale(1.01);
+}
+.sub2 {
+    background-color: rgb(201, 201, 201);
+}
+.avatar {
+    margin: 30px 20px 10px 30px;
+    border-radius: 0;
+    transition: 0.5s ease;
+    background-color: black;
+    color: white;
+}
+.avatar:hover {
+    transform: scale(1.01);
+}
+.imgage-girl {
+    border-radius: 0;
+}
+.carousel-inner {
+    margin: 15px 15px 0px 0px;
+}
+.mb-3 {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.to-the-top {
+    border-radius: 0;
+}
+
+.footer {
+    background: #a0a0a0;
+    /* fallback for old browsers */
+}
+.footer-button {
+    margin: 20px 20px 20px 20px;
+}
+.footermain {
+    background-color: #a0a0a0;
+}
+
+* {
+    font-family: Lora, serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
